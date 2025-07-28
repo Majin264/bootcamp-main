@@ -1,0 +1,20 @@
+body {
+    background-color: bisque ;
+    color:rgb(31, 58, 44) ;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 20px;
+    text-align: center;
+}
+
+#inputBox {
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+#outputBox {
+    font-size: 1.2em;
+    font-weight: bolder;
+    font-family:'Times New Roman', Times, serif ;
+    color: rgb(88, 84, 84);
+}
