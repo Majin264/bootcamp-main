@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <title>Visualización de energías renovables</title>
+</head>
+
+<body>
+    <header class="header">
+        <h1>Visualización de datos de energías Renovables.</h1>
+    </header>
+
+
+    <nav class="navbar">
+        <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#graficoPaises">Paises</a></li>
+            <li><a href="#graficoRegiones">Regiones</a></li>
+            <li><a href="#graficoComparativo">Evolución</a></li>
+        </ul>
+    </nav>
+
+
+    <div class="main-content">
+
+        <section class="grafico" id="graficoPaises">
+            <h2>Top 20 Paises con Mayor Producción de Energía Renovable</h2>
+            <canvas id="graficoBarrasPaises"></canvas>
+        </section>
+
+        <section class="grafico" id="graficoRegiones">
+            <h2>Producción de Energía Renovable por Regiones</h2>
+            <canvas id="graficoBarrasRegiones"></canvas>
+        </section>
+
+        <section class="grafico" id="graficoComparativo">
+            <h2>Comparativa de producción de Energía Renovable - Colombia vs. Suramerica (1965-2021).</h2>
+            <canvas id="graficoLineasComparativa"></canvas>
+        </section>
+
+
+
+
+    </div>
+
+
+    <footer class="footer">
+        <p>creado por majin -💌 <a href="mailto:mariaj.escobarl@udea.edu.co" class="correo">Contacto</a></p>
+    </footer>
+
+    
+
+
+    <script src="js/scripts.js"></script>
+</body>
+</html>
