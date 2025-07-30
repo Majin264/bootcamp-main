@@ -103,7 +103,7 @@ document.addEventListener('DOMContentLoaded', async function() {
                         label: 'Colombia',
                         data: colombiaData.map(item => item.renovables),
                         borderColor: 'rgba(55, 133, 186, 1)',
-                        backgroundColor: 'rgba(55, 133, 186, 0.2)',
+                        backgroundColor: 'rgba(80, 133, 186, 0.2)',
                         fill: false,
                         borderWidth: 1,
                         tension: 0.2,
